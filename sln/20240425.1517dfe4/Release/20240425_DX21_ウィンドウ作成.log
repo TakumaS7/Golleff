@@ -1,0 +1,88 @@
+﻿  AT12B173-18-佐藤琢磨.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(126,21): error C2440: '=': 'const char [12]' から 'LPCWSTR' に変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(126,21):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+  
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(143,14): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': 引数 2 を 'const char [12]' から 'LPCWSTR' へ変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(143,14):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(4437,1):
+      'CreateWindowExW' の宣言を確認してください
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(143,14):
+      引数リスト '(long, const char [12], const char [21], long, int, int, LONG, LONG, int, int, HINSTANCE, int)' を一致させようとしているとき
+  
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(274,7): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 引数 2 を 'const char [31]' から 'LPCWSTR' へ変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(274,24):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' の宣言を確認してください
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\AT12B173-18-佐藤琢磨.cpp(274,7):
+      引数リスト '(HWND, const char [31], const char [5], long)' を一致させようとしているとき
+  
+  Audio.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Audio.cpp(94,11): error C2664: 'HMMIO mmioOpenW(LPWSTR,LPMMIOINFO,DWORD)': 引数 1 を 'LPSTR' から 'LPWSTR' へ変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Audio.cpp(94,27):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\mmiscapi.h(441,1):
+      'mmioOpenW' の宣言を確認してください
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Audio.cpp(94,11):
+      引数リスト '(LPSTR, MMIOINFO *, int)' を一致させようとしているとき
+  
+  Block.cpp
+  Effect.cpp
+  fade.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\fade.cpp(84,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\fade.cpp(112,17): warning C4244: '=': 'int' から 'float' への変換です。データが失われる可能性があります。
+  field.cpp
+  Game.cpp
+  keyboard.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\debugPrintf.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  (ソース ファイル 'keyboard.cpp' をコンパイルしています)
+  
+  line.cpp
+  Manager.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Manager.cpp(37,10): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  mouse.cpp
+  pentagon.cpp
+  Piece.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Piece.cpp(185,52): warning C4244: '引数': 'int' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Piece.cpp(222,8): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Piece.cpp(223,8): warning C4244: '初期化中': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Piece.cpp(237,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\Piece.cpp(243,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  polygon.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\debugPrintf.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  (ソース ファイル 'polygon.cpp' をコンパイルしています)
+  
+  renderer.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(335,3): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 引数 2 を 'char *' から 'LPCWSTR' へ変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(335,55):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' の宣言を確認してください
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(335,3):
+      引数リスト '(int, char *, const char [3], long)' を一致させようとしているとき
+  
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(364,3): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': 引数 2 を 'char *' から 'LPCWSTR' へ変換できません。
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(364,55):
+      指示された型は関連がありません。変換には reinterpret_cast、C スタイル キャストまたはかっこで囲まれた関数スタイル キャストが必要です。
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+      'MessageBoxW' の宣言を確認してください
+      C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\renderer.cpp(364,3):
+      引数リスト '(int, char *, const char [3], long)' を一致させようとしているとき
+  
+  result.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\result.cpp(53,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\result.cpp(59,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  score.cpp
+  sprite.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(222,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(223,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(304,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(305,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(504,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\sprite.cpp(505,10): warning C4244: '初期化中': 'double' から 'float' への変換です。データが失われる可能性があります。
+  title.cpp
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\title.cpp(53,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+C:\Users\takus\Desktop\DX21\20240905_DX21_テトリス4\title.cpp(59,12): warning C4244: '引数': 'float' から 'int' への変換です。データが失われる可能性があります。
+  triangle.cpp

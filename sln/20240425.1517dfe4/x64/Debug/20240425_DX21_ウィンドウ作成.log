@@ -1,0 +1,12 @@
+﻿  LINK : 前回のインクリメンタル リンクで C:\Users\takus\Desktop\DX22\20241224_DX22_3校合同用\x64\Debug\20240425_DX21_ウィンドウ作成.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+DirectXTex_Debug.lib(DirectXTexImage.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexImage.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexWIC.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexWIC.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexD3D11.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexD3D11.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexUtil.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexUtil.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexConvert.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexConvert.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexCompress.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexCompress.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(DirectXTexMipMaps.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(DirectXTexMipMaps.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(BC.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(BC.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(BC4BC5.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(BC4BC5.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+DirectXTex_Debug.lib(BC6HBC7.obj) : warning LNK4099: PDB '' が 'DirectXTex_Debug.lib(BC6HBC7.obj)' で、または '' に見つかりません。デバッグ情報がないものとして、オブジェクトにリンクします。
+  20240425_DX21_ウィンドウ作成.vcxproj -> C:\Users\takus\Desktop\DX22\20241224_DX22_3校合同用\x64\Debug\20240425_DX21_ウィンドウ作成.exe
