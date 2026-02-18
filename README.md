@@ -13,8 +13,6 @@ DirectX11で制作した、ゴルフとルーレットを組み合わせたゲームです。
 - C、C++
 - DirectX11
 - XAudio2
-- ImGui
-- yaml-cpp
 - Visual Studio 2022
 
 
